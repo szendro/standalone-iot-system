@@ -1,0 +1,59 @@
+/*** LoraLink styles ***/
+
+    .flex-container {
+        display: flex;
+        background-color: rgb(134, 190, 247);
+        padding-top: 20px;
+        padding-left: 50px;
+        border-radius: 40px;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .flex-container >div{
+        margin-left: 30px;
+    }
+    .flex-container >p{
+        margin-left: 50px;
+        margin-top: -5px;
+    }
+    #resultholder{
+        margin-top: -7px;
+        margin-bottom: 10px;
+    }
+    
+    #reg-btn {
+    }
+    #reg-vals{
+        padding-left: 20px;
+        padding-top:10px;
+        margin-top: -3px;
+    }
+    #regselect{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: rgb(119, 117, 117);
+    }
+
+    @media only screen and (max-width: 800px) {
+        .flex-container {
+            display: block;
+            background-color: rgb(134, 190, 247);
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-bottom: 20px;
+            border-radius: 40px;
+            width: 60%;
+            margin-left: 15%;
+        }
+        #reg-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 2px;
+        }
+
+        #reg-vals{
+        padding-left: 20px;
+        padding-top:10px;
+        margin-left: -5px;
+        }
+    }
